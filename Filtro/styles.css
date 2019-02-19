@@ -1,0 +1,121 @@
+p
+{
+	text-align: center;
+	font-size: 20pt;
+}
+
+div
+{
+	width: 600px;
+	margin: auto;
+	margin-bottom: 100px;
+}
+#red, #green, #blue, #grayscale, #sepia, #saturate, #hue-rotate, #invert, #opacity, #brightness, #contrast, #blur, #drop-shadow
+{
+	width:200px;
+	height:350px;
+	position:absolute;
+	top:0px;
+}
+#grayscale {width:600px; left: 0px;}
+#grayscale:hover ~ #blending
+{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#sepia {width: 600px; left: 0px;}
+#sepia:hover ~ #blending
+{
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);	
+}
+
+#saturate {width: 600px; left: 0px;}
+#saturate:hover ~ #blending
+{
+	-webkit-filter: saturate(400%);
+	filter: saturate(400%);	
+}
+
+#hue-rotate {width: 600px; left: 0px;}
+#hue-rotate:hover ~ #blending
+{
+	-webkit-filter: hue-rotate(90deg);
+	filter: hue-rotate(90deg);	
+}
+
+#invert {width: 600px; left: 0px;}
+#invert:hover ~ #blending
+{
+	-webkit-filter: invert(.8);
+	filter: invert(.8);	
+}
+
+#opacity {width: 600px; left: 0px;}
+#opacity:hover ~ #blending
+{
+	-webkit-filter: opacity(.2);
+	filter: opacity(.2);	
+}
+
+#brightness {width: 600px; left: 0px;}
+#brightness:hover ~ #blending
+{
+	-webkit-filter: brightness(3);
+	filter: brightness(3);	
+}
+
+#contrast {width: 600px; left: 0px;}
+#contrast:hover ~ #blending
+{
+	-webkit-filter: contrast(4);
+	filter: contrast(4);	
+}
+
+#blur {width: 600px; left: 0px;}
+#blur:hover ~ #blending
+{
+	-webkit-filter: blur(5px);
+	filter: blur(5px);	
+}
+
+#drop-shadow {width: 600px; left: 0px;}
+#drop-shadow:hover ~ #blending
+{
+	-webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.9));
+	filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.9));	
+}
+#box
+{
+	width: 600px;
+	position:relative;
+	margin-bottom: 0px;
+}
+#blending
+{
+	width: 600px;
+	height: 350px;			
+	background-image: url(img/sword.jpg);
+	display: block;
+	z-index: -1;
+	margin-bottom: 0px;
+}
+#red {left: 0px;}
+#green {left: 200px;}
+#blue {left: 400px;}
+#red:hover ~ #blending 
+{
+	background-color:red; 
+	background-blend-mode: multiply;
+}
+#green:hover ~ #blending 
+{
+	background-color:green;
+	background-blend-mode: multiply;
+}
+#blue:hover ~ #blending 
+{
+	background-color:blue;
+	background-blend-mode: multiply;
+}

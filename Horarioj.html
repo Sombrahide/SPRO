@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Horario</title>
+<style>
+*{margin:0px; padding:0px;text-align: center; background-color: black;}
+div{display:flex; flex-direction: column; border-collapse: collapse; flex-wrap: nowrap; justify-content: center; border:1px solid grey; box-sizing: border-box; background-color: lightgrey;}
+.columna, .columnah{height: 350px; width: 240px;}
+.columnah{width: 100px;}
+.horas, .hora1{height: 50px;}
+.hora2{height: 100px;}
+.hora3{height: 150px;}
+#contenedor{display: flex;flex-direction: row; width: 1300px; margin:auto; margin-top:30px;}
+.spbdd{background-color:#d98880; color:#954440;}
+.spsin{background-color:#1abc9c; color:#067858;}
+.spede{background-color:#DAF7A6; color:#A6B362;}
+.sppro{background-color:#2980b9; color:#054075;}
+.spfol{background-color:#af7ac5; color:#6B3681;}
+.splmg{background-color:#FFC300; color:#BB8000;}
+</style>
+</head>
+<body>
+<div id="contenedor">
+<div class="columnah">
+<div class="horas">HORARI</div>
+<div class="horas">15:20<br/>16:10</div>
+<div class="horas">16:10<br/>17:00</div>
+<div class="horas">17:20<br/>18:10</div>
+<div class="horas">18:10<br/>19:00</div>
+<div class="horas">19:20<br/>20:10</div>
+<div class="horas">20:10<br/>21:00</div>
+</div>
+<div class="columna">
+<div class="horas">Dilluns</div>
+<div class="hora3 spbdd">Base de dades</div>
+<div class="hora3 spsin">Sistemes informatics</div>
+</div>
+<div class="columna">
+<div class="horas">Dimarts</div>
+<div class="hora2 spede">Entorns de desenvolupament</div>
+<div class="hora2 sppro">Programacio</div>
+<div class="hora2 spfol">Formacion i orientacio laboral</div>
+</div>
+<div class="columna">
+<div class="horas">Dimecres</div>
+<div class="hora2 splmg">Llenguatge de marques i sistemes gestio</div>
+<div class="hora2 sppro">Programacio</div>
+<div class="hora2 spbdd">Base de dades</div>
+</div>
+<div class="columna">
+<div class="horas">Dijous</div>
+<div class="hora1 spfol">Formacion i orientacio laboral</div>
+<div class="hora2 spbdd">Base de dades</div>
+<div class="hora1 spede">Entorns de desenvolupament</div>
+<div class="hora2 spsin">Sistemes informatics</div>
+</div>
+<div class="columna">
+<div class="horas">Divendres</div>
+<div class="hora3 splmg">Llenguatge de marques i sistemes gestio</div>
+<div class="hora1 spbdd">Base de dades</div>
+<div class="hora2 sppro">Programacio</div>
+</div>
+</div>
+</body>
+</html>

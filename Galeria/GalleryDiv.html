@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GalleryDiv</title>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+	<div class="galeria">
+		<div class="imagen_grande">
+			    <img class="big" src="img/img1.jpg" alt="img5">		
+		</div>
+		<div id="contenedor_ab">
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+		</div>
+	</div>
+
+	<div class="galeria">
+		<div id="contenedor_ar">
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+		</div>
+		<div class="imagen_grande">
+		    <img class="big" src="img/img1.jpg" alt="img5">		
+		</div>
+	</div>
+
+	<div class="galeria">
+		<div id="imagen_grande_le">
+		    <img class="big" src="img/img1.jpg" alt="img5">		
+		</div>
+		<div>
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+		</div>
+	</div>
+
+	<div class="galeria">
+		<div id="imagen_grande_ri">
+		    <img class="big" src="img/img1.jpg" alt="img5">		
+		</div>
+		<div id="contenedor_ri">
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+			<div class="gallery">
+			    <img class="small" src="img/img1.jpg" alt="img1">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img2.jpg" alt="img2">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img3.jpg" alt="img3">
+			</div>
+
+			<div class="gallery">
+			    <img class="small" src="img/img4.jpg" alt="img4">
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+    var petites = document.querySelectorAll('.small');
+
+    for (var i = 0; i < petites.length; i++) {
+        petites[i].addEventListener('mouseover', function() {
+            var big = document.querySelectorAll('.big');
+            for (var j = 0; j < big.length; j++) {
+                big[j].src = this.src
+            }
+        });
+    }
+</script>
+</html>

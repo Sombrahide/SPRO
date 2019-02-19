@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ficha</title>
+	<style type="text/css">
+		@keyframes aparecer
+		{
+			0%{filter:opacity(0%);}
+			10%{filter:opacity(10%);}
+			20%{filter:opacity(20%);}
+			30%{filter:opacity(30%);}
+			40%{filter:opacity(40%);}
+			50%{filter:opacity(50%);}
+			60%{filter:opacity(60%);}
+			70%{filter:opacity(70%);}
+			80%{filter:opacity(80%);}
+			90%{filter:opacity(90%);}
+			100%{filter:opacity(100%);}
+		}
+		html {background-image:url(http://www.howintheworld.com/textures/images/HITW-TS2-forest-evergreen-bareground-2.jpg);overflow: hidden;}
+		#contenedor img
+		{
+			margin: 5px;
+			width: 120px;
+			height: 120px;
+			border: solid 6px black;
+			border-radius: 5px;
+		}
+		td
+		{
+			width: 200px;
+			height: 30px;
+			background-color: black;
+			color: white;
+			text-align: center;
+			border-radius: 5px;
+		}
+		h3
+		{
+			width: 300px;
+			height: 30px;
+			color: white;
+			background-color: black;
+			border-radius: 5px;
+
+		}
+		#contenedor_prin 
+		{
+			width: 500px; 
+			height: 600px; 
+			border: solid 10px black;
+			border-top-left-radius: 30px;
+		}
+		#contenedor
+		{
+			position: absolute;
+			width: 500px;
+			height: 600px;
+			border-top-left-radius: 20px;
+			overflow-y: scroll;
+			background-color: white;
+			filter: opacity(0%);
+		}
+		#contenedor:hover
+		{
+			animation-name: aparecer;
+			animation-fill-mode: forwards;
+			animation-duration: 0.5s;
+		}
+		#imagen_principal
+		{
+			background: url(https://i.pinimg.com/originals/70/63/e9/7063e9956c5181d3180089c69e866df9.jpg);
+			background-size: 500px 600px; 
+			position: absolute;
+			width: 500px; 
+			height: 600px; 
+			z-index: -2;
+		}
+		.texto
+		{
+			text-align: justify;
+			margin: 20px;
+			padding: 5px;
+			background-color: #f6f6f6;
+		}
+	</style>
+	<meta charset="utf-8">
+</head>
+<body>
+	<center>
+		<div id="contenedor_prin">
+			<div id="imagen_principal"></div>
+			<div id="contenedor">
+				<h1>Infirm Soris</h1>
+				<table>
+					<tr>
+						<td>Infirm Soris</td>
+						<td>Apodo: Brazo de Hierro</td>
+					</tr>
+					<tr>
+						<td>Nacimiento: ?? de Febrero</td>
+						<td>21 años</td>
+					</tr>
+					<tr>
+						<td>Deidad: Torm</td>
+						<td>Clase: Guerrero(7) Defensor(7)</td>
+					</tr>
+					<tr>
+						<td>Ocupacion: Sargento</td>
+						<td>Procedencia: Istek</td>
+					</tr>
+					<tr>
+						<td>Residencia: Galparan</td>
+						<td>Raza: Humano</td>
+					</tr>
+				</table>
+				<br>
+				<img src="https://i.ibb.co/cvJ5VMN/1470551164840-shield12.jpg">
+				<img src="https://i.ibb.co/1XPsVHk/torm.jpg">
+				<img src="https://i.ibb.co/jLCykzy/martillo.jpg">
+				<br>
+				
+				<h3>Descripción física</h3>
+				<div class="texto">
+					Nada mas ver a este hombre puedes notar su anormal altura para un humano, a uno de sus lados lo que en un principio podrías pensar que es una armadura se descubre como un brazo metálico, teniendo el mismo varias válvulas y el sonido de engranajes acompañándolo, una prótesis como pocos han llegado a ver. Al subir la mirada te encuentras con unos ojos almendrados y cansados los cuales están plasmados en una cara cuadrada de rasgos muy definidos, el pelo corto y barba arreglada son de un color castaño manchado de alguna que otra cana que va apoderándose de su cabello. Su cuerpo trabajado y desgastado esta cubierto de cicatrices de todo tipo, las cuales cubren sus músculos, una enorme quemadura recorre su brazo haciendo juego con su espalda la cual esta casi por completo quemada.
+					<br><br>
+					Se puede notar en su rostro como algo le preocupa, portando siempre un semblante decaído y serio.
+				</div>
+				<br>
+
+				<h3>Descripción psicológica</h3>
+				<div class="texto">
+					Luchar día si día también contra el crimen y no ver resultado es difícil de soportar, aun así Infirm ha seguido con ello sin dudar, puesto que desea de todo corazón una ciudad limpia y segura donde se pueda vivir con tranquilidad, un lugar en el que pueda formar una familia sin preocuparse de que les suceda algo malo, pero el hombre confiado que era al salir de su pueblo natal ya no existe mas.
+					<br><br>
+					Miedo, desesperación y duda son sentimientos que han acompañado durante los últimos años a esta persona la cual trataba de ocultarlos para no demostrar debilidad al resto, aun intenta luchar con todo su corazón contra el mal, pero cada vez que piensa en ello solo puede pensar en que después vendrá algo peor.
+					<br><br>
+					Algunos pueden pensar en perder la esperanza y otros en ser realistas, mas Infirm ya no cree que se pueda vivir en un lugar sin crimen ni maldad, mas aceptándolo intenta igualmente reducirlo al mínimo, al fin y al cabo el debe continuar esta lucha, no importa que sea una batalla perdida y sin esperanza, eso no le da derecho a huir de ella, por un bien mejor el se esfuerza en continuar aun sin ninguna esperanza de ver en vida su sueño cumplirse.
+					<br><br>
+					Por el resto igualmente oculta este mal que posee su corazón, mostrando una actitud entrañable con los que conoce o acaba de conocer, mas en cuanto la flor de la sospecha aflora en el su ser cambia a alguien mas frio con aquellos en los que no confiá, esperando a que cometan un error que confirme esas dudas que tiene sobre esa persona.
+				</div>
+				<br>
+
+				<h3>Meta</h3>
+				<div class="texto">
+					<center>Paz, seguridad, familia.</center>
+					<br>
+					Esos son los tres deseos que brillan con mas fuerza en Infirm, aun mas que el querer recuperar su brazo o volverse mas fuerte, ya no le interesa ser un héroe ni que le recuerden, para el esas son ilusiones infantiles en comparación a lo que de verdad se debería querer.
+					<br>
+					Aunque sus principales esfuerzos para conseguir tales cosas se centran en Galparan, el ayuda activamente y siempre que puede a otras ciudades o condados tal como sucedió en el asedio de Adalon, el no lo hace por la fama ni por los nobles que se vanaglorian, sino por el pueblo del que vino, la gente de a pie, puesto que aunque sabe que muchos de ellos son cobardes y estúpidos, gente que ni agradece la sangre que se derrama para mantenerlos a salvo aun tiene esperanza en las personas de buen corazón que habitan estas tierras, gente que no merece sufrir ni vivir en la desolación de estas tierras llena cada vez mas de peligros.
+				</div>
+				<br>
+
+				<h3>Trasfondo</h3>
+				<div class="texto">
+					Naciendo como el hijo de un granjero cualquiera de Istek creció escuchando las odas a las antiguas leyendas sobre increíbles héroes que se sacrificaban por el bien común, de caballeros que arriesgaban su vida enfrentándose a terribles dragones y paladines que se enfrentaban a tenebrosos demonios, motivado por estas historias decidiría que seria un gran héroe como esas leyendas que escuchaba, capaz de defender cualquiera del mal. Por supuesto por mucho que quisiera seguía siendo el hijo de un granjero, así que tuvo que pasar varios años trabajando en la granja con su padre y entrenando con compañeros que ahora pertenecían a la guardia para obtener el conocimiento básico para no morir en el exterior, un trabajo duro que fortalecería de gran manera su cuerpo, pero que no le daría gran capacidad para combatir, viendo como el tiempo iba pasando a la edad de 17 años decidiría dejar la granja de su padre y formando un grupo con algunos aventureros que solían pasar por Istek comenzar su entrenamiento.
+					<br>
+					Tras un tiempo Infirm se dio cuenta en como el simple echo de balancear su martillo mientras viajaba no le harían aprender realmente a combatir y fue por ello que para lograr mejorar su forma de combatir al mismo tiempo que adquiría algo de fama entro en la guardia de Galparan, así fue que no solo mejoro en el combate hasta adquirir su propio estilo de combate en el cual predominaba la defensa sino que gracias a la enseñanza de una sacerdotisa llamada Asiiel aprendió a leer, escribir y hablar como una persona civilizada, tras un tiempo al servicio de la guardia y como recompensa por sus méritos fue ascendido a Cabo, dedicándose con mas rigor a su deber por la guardia pero al mismo tiempo perdiendo aquella ilusión que le hizo salir del pueblo.
+					<br>
+					Ya lleva varios años en la guardia como Sargento, luchando para evitar los crímenes de la ciudad, pero no importa cuanto se esfuerce el y la Guardia, los criminales siguen apareciendo sin parar, aun así donde muchos otros abandonarían o se resignarían Infirm sigue luchando sin parar, todo sea por un mundo mejor. El fue uno de los pocos supervivientes del asedio de Adalon, luchando hasta casi desfallecer en la defensa de las puertas, solo retrocediendo para detener a las hordas de no-muertos que surgieron de la fortaleza misma.
+				</div>
+				<img src="https://i.ibb.co/V3Tp0bZ/Istek.png">
+				<img src="https://i.ibb.co/1sLBJGh/Galparan.png">
+				<img src="https://i.ibb.co/3sybwDC/Aldalon.png">
+			</div>
+		</div>
+	</center>
+</body>
+</html>

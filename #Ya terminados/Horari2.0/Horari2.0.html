@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Horari del grup: S1P</title>
+	<style>
+		@font-face 
+		{
+		    font-family: 'letrac';
+		    src: url(gogo_hack/gogo_hack.otf);
+		}
+		*{
+			font-weight: bold;
+			padding: 10px;
+			text-align: center;
+
+		}
+		td{
+			border: 1px solid;
+			text-align: center;
+			background-color: lightgrey;
+			color: black;
+			font-family: 'letrac';
+		}
+		#table
+		{
+			margin:auto;
+		}
+		#horari
+		{
+			width: 40px;
+			
+		}
+		.horari
+		{
+			width: 200px;
+		}
+		.hora
+		{
+			/*background-color: white;
+			color:black;*/
+		}
+		.spsin
+		{
+			background-color:#1abc9c;
+			color:#d98889;
+		}
+		.spbdd
+		{
+			background-color: #d98880;
+			color: #af7ac9;
+		}
+		.spfol
+		{
+			background-color: #af7ac5;
+			color: #DAF7A9;
+		}
+		.spede
+		{
+			background-color: #DAF7A6;
+			color: #FFC309;
+		}
+		.splmg
+		{
+			background-color: #FFC300;
+			color:#298099;
+		}
+		.sppro
+		{
+			background-color: #2980b9;
+			color: #1abc99;
+		}
+	</style>
+</head>
+<body>
+<table id="table">
+	<tr>
+		<td id="horari">HORARI</td>
+		<td class="horari">Dilluns</td>
+		<td class="horari">Dimarts</td>
+		<td class="horari">Dimecres</td>
+		<td class="horari">Dijous</td>
+		<td class="horari">Divendres</td>
+	</tr>
+	<tr>
+		<td class="hora" >15:20<br>16:10</td>
+		<td rowspan="3" class="spbdd">Base de dades</td>
+		<td rowspan="2" class="spede">Entorns de desenvolupament</td>
+		<td rowspan="2" class="splmg">Llenguatge de marques<br>i sistemes gestio</td>
+		<td class="spfol">Formacion<br>i orientacio laboral</td>
+		<td rowspan="2" class="splmg">Llenguatge de marques<br>i sistemes gestio</td>
+	</tr>
+	<tr>
+		<td class="hora">16:10<br>17:00</td>
+		<td rowspan="2" class="spbdd">Base de dades</td>
+	</tr>
+	<tr>
+		<td class="hora">17:20<br>18:10</td>
+		<td rowspan="2" class="sppro">Programaci&oacute</td>
+		<td rowspan="2" class="sppro">Programaci&oacute</td>
+		<td class="spbdd">Base de dades</td>
+	</tr>
+	<tr>
+		<td class="hora">18:10<br>19:00</td>
+		<td rowspan="3" class="spsin">Sistemes inform&agravetics</td>
+		<td class="spede">Entorns de desenvolupament</td>
+		<td rowspan="3" class="sppro">Programaci&oacute</td>
+	</tr>
+	<tr>
+		<td class="hora">19:20<br>20:10</td>
+		<td rowspan="2" class="spfol">Formacion<br>i orientacio laboral</td>
+		<td rowspan="2" class="spbdd">Base de dades</td>
+		<td rowspan="2" class="spsin">Sistemes inform&agravetics</td>
+	</tr>
+	<tr>
+		<td class="hora">20:10<br>21:00</td>
+	</tr>
+</table>
+</body>
+</html>

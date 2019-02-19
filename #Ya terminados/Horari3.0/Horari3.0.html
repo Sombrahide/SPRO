@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Horari del grup: S1P</title>
+	<style>
+		@font-face 
+		{
+		    font-family: 'letrac';
+		    src: url(gogo_hack/gogo_hack.otf);
+		}
+		*{
+			text-align: center;
+			font-family: letrac;
+			padding: 0px;
+			margin: 0px;
+
+		}
+		body, html
+		{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+		div
+		{
+			display: flex;
+			flex-direction: column;
+			background-color: lightgrey;
+			border-collapse: collapse;
+			flex-wrap: nowrap;
+			justify-content: center;
+		}
+		#contenedor
+		{
+			width: 1300px;
+			height: 350px;
+			display: flex;
+			flex-direction: row;		}
+		.columna
+		{
+			display: flex;
+			height: 350px;
+		}
+		.celda
+		{
+			height: 50px;
+			width: 240px;
+			box-sizing: border-box;
+			border:1px solid grey;
+		}
+		.hora
+		{
+			width: 100px;
+			height: 50px;
+			background-color: lightgrey;
+			box-sizing: border-box;
+			border:1px solid grey;
+		}
+		.spsin{background-color:#1abc9c;color:#067858;}
+		.spbdd{background-color: #d98880;color: #954440;}
+		.spfol{background-color: #af7ac5;color: #6B3681;}
+		.spede{background-color: #DAF7A6;color: #A6B362;}
+		.splmg{background-color: #FFC300;color:#BB8000;}
+		.sppro {background-color: #2980b9; color: #054075;}
+		.dosfilas
+		{
+			height: 100px;
+		}
+		.tresfilas
+		{
+			height: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div id="contenedor">
+		<div class="columna">
+			<div class="hora">HORARI</div>
+			<div class="hora">15:20<br>16:10</div>
+			<div class="hora">16:10<br>17:00</div>
+			<div class="hora">17:20<br>18:10</div>
+			<div class="hora">18:10<br>19:00</div>
+			<div class="hora">19:20<br>20:10</div>
+			<div class="hora">20:10<br>21:00</div>
+
+		</div>
+		<div class="columna">
+			<div class="celda">Dilluns</div>
+			<div class="celda spbdd tresfilas">Base de dades</div>
+			<div class="celda spsin tresfilas">Sistemes informatics</div>
+		</div>
+		<div class="columna">
+			<div class="celda">Dimarts</div>
+			<div class="celda spede dosfilas">Entorns de desenvolupament</div>
+			<div class="celda sppro dosfilas">Programacio</div>
+			<div class="celda spfol dosfilas">Formacion<br>i orientacio laboral</div>
+		</div>
+		<div class="columna">
+			<div class="celda">Dimecres</div>
+			<div class="celda splmg dosfilas">Llenguatge de marques<br>i sistemes gestio</div>
+			<div class="celda sppro dosfilas">Programacio</div>
+			<div class="celda spbdd dosfilas">Base de dades</div>
+		</div>
+		<div class="columna">
+			<div class="celda">Dijous</div>
+			<div class="celda spfol">Formacion<br>i orientacio laboral</div>
+			<div class="celda spbdd dosfilas">Base de dades</div>
+			<div class="celda spede">Entorns de desenvolupament</div>
+			<div class="celda spsin dosfilas">Sistemes informatics</div>
+		</div>
+		<div class="columna">
+			<div class="celda">Divendres</div>
+			<div class="celda splmg dosfilas">Llenguatge de marques<br>i sistemes gestio</div>
+			<div class="celda spbdd">Base de dades</div>
+			<div class="celda sppro tresfilas">Programacio</div>
+		</div>
+</body>
+</html>

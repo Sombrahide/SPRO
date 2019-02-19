@@ -1,0 +1,53 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+img
+{
+	display: block;
+}
+
+table
+{
+	margin: auto;
+	margin-bottom: 100px;
+}
+#imagen_grande_le .big
+{
+	float: left;
+}
+#imagen_grande_ri .big
+{
+	float: right;
+}
+.big
+{
+	width: 960px;
+	height: auto;
+}
+#contenedor_ab .small, #contenedor_ar .small
+{
+	float: left;
+}
+#contenedor_ri
+{
+	float: right;
+}
+.small
+{
+  	width: 120px;
+  	height: auto;
+}
+.imagen_grande, #imagen_grande_le, #imagen_grande_ri, #contenedor_ab, #contenedor_ar
+{
+	margin: auto;
+	width: 960px;
+	height: auto;
+}
+.galeria
+{
+	margin-bottom: 100px;
+}

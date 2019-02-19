@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Horari del grup: S1P</title>
+	<style>
+		@font-face 
+		{
+		    font-family: 'letrac';
+		    src: url(gogo_hack/gogo_hack.otf);
+		}
+		*
+		{
+			text-align: center;
+			padding: 0px;
+			margin: 0px;
+		}
+		body, html, section, article, nav, figure
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			font-family: letrac;
+		}
+		aside
+		{
+			width: 200px;
+		}
+		article
+		{
+			height: 50px;
+			box-sizing: border-box;
+			border:1px solid grey;
+			background-color: lightgrey;
+		}
+		time {width: 100px;}
+		.spsin {background-color:#1abc9c; color:#067858;}
+		.spbdd {background-color: #d98880; color: #954440;}
+		.spfol {background-color: #af7ac5; color: #6B3681;}
+		.spede {background-color: #DAF7A6; color: #A6B362;}
+		.splmg {background-color: #FFC300; color:#BB8000;}
+		.sppro {background-color: #2980b9; color: #054075;}
+		nav {height: 100px; box-sizing: border-box; border:1px solid grey;}
+		figure {height: 150px; box-sizing: border-box; border:1px solid grey;}
+	</style>
+</head>
+<body>
+	<section>
+		<time>
+			<article>HORARI</article>
+			<article>15:20<br>16:10</article>
+			<article>16:10<br>17:00</article>
+			<article>17:20<br>18:10</article>
+			<article>18:10<br>19:00</article>
+			<article>19:20<br>20:10</article>
+			<article>20:10<br>21:00</article>
+		</time>
+		<aside>
+			<article>Dilluns</article>
+			<figure class="spbdd">Base de dades</figure>
+			<figure class="spsin">Sistemes informatics</figure>
+		</aside>
+		<aside>
+			<article>Dimarts</article>
+			<nav class="spede">Entorns de desenvolupament</nav>
+			<nav class="sppro">Programacio</nav>
+			<nav class="spfol">Formacion<br>i orientacio laboral</nav>
+		</aside>
+		<aside>
+			<article>Dimecres</article>
+			<nav class="splmg">Llenguatge de marques<br>i sistemes gestio</nav>
+			<nav class="sppro">Programacio</nav>
+			<nav class="spbdd">Base de dades</nav>
+		</aside>
+		<aside>
+			<article>Dijous</article>
+			<article class="spfol">Formacion<br>i orientacio laboral</article>
+			<nav class="spbdd">Base de dades</nav>
+			<article class="spede">Entorns de desenvolupament</article>
+			<nav class="spsin">Sistemes informatics</nav>
+		</aside>
+		<aside>
+			<article>Divendres</article>
+			<nav class="splmg">Llenguatge de marques<br>i sistemes gestio</nav>
+			<article class="spbdd">Base de dades</article>
+			<figure class="sppro">Programacio</figure>
+		</aside>
+	</section>
+</body>
+</html>
